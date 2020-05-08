@@ -144,7 +144,7 @@ Put your data inside the folder data with images of an activity inside the folde
 
 
 
-
+Further Extensions include exploring its perspective from lstm classifiers
 
 
 
