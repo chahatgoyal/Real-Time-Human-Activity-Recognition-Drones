@@ -91,6 +91,8 @@ The script [src/s5_test.py](src/s5_test.py) is for doing real-time action recogn
 The classes are set in [config/config.yaml](config/config.yaml) by the key `classes`.
 
 The features obtained after running s3_preprocess_features.py for my dataset are provided below:
+[FeatureX.csv](https://drive.google.com/file/d/1iAieiINnOtFTwRmunfzxDzYPkD5U0VAH/view?usp=sharing)
+[FeatureY.csv:](https://drive.google.com/file/d/1RyKjH-rjpWdWUgqUjOBcpehowxZO27aL/view?usp=sharing)
 
 
 The supported input includes **video file**, **a folder of images**, and **web camera**, which is set by the command line arguments `--data_type` and `--data_path`.
