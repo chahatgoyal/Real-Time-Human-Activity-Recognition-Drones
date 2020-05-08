@@ -1,0 +1,43 @@
+put your data in this folder
+
+
+Each data subfolder contains images named as 
+`00001.jpg`, `00002.jpg`, etc.   
+
+The naming format of each image is defined in [config/config.yaml](config/config.yaml) by the sentence:
+ `image_filename_format: "{:05d}.jpg"`.
+
+
+
+The images to be used as training data and their label are configured by this txt file:
+ [data/folder/valid_images.txt](data/folder/valid_images.txt). 
+
+```
+jump_03-02-12-34-01-795
+52 59
+72 79
+
+
+kick_03-02-12-36-05-185
+54 62
+```
+
+
+In each paragraph,  
+the 1st line is the data folder name, 
+which should start with `"${class_name}_"`. 
+The 2nd and following lines specify the
+ `staring index` and `ending index` of the video that corresponds to that class.
+
+
+
+Let's take the 1st paragraph of the above snapshot as an example: `jump` is the class,
+ and the frames `52~59` & `72~79` of the video are used for training.
+
+
+
+## Classes
+
+The classes are set in [config/config.yaml](config/config.yaml) under the key word `classes`.
+ No matter how many classes you put in the training data (set by the folder name),
+ only the ones that match with the classes in **config.yaml** are used for training and inference.
