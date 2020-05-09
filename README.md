@@ -25,6 +25,8 @@ This Project is based upon recognizing human activities through drone survillenc
 + Apply PCA to reduce feature dimension to 80. Classify by DNN of 3 layers of 50x50x50 (or switching to other classifiers in one line). See class neural net ClassifierOfflineTrain in lib_classifier.py
 + Mean filtering the prediction scores between 2 frames. Add label above the person if the score is larger than 0.8. See class ClassifierOnlineTest in lib_classifier.py
 
+![alt text](https://github.com/chahatgoyal/Real-Time-Human-Activity-Recognition-Drones/blob/master/doc/joints_order.png)
+
 The algorithm has been considered from
 [report](https://github.com/felixchenfy/Data-Storage/blob/master/EECS-433-Pattern-Recognition/FeiyuChen_Report_EECS433.pdf)  
 
