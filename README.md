@@ -25,6 +25,8 @@ This Project is based upon recognizing human activities through drone survillenc
 + Apply PCA to reduce feature dimension to 80. Classify by DNN of 3 layers of 50x50x50 (or switching to other classifiers in one line). See class neural net ClassifierOfflineTrain in lib_classifier.py
 + Mean filtering the prediction scores between 2 frames. Add label above the person if the score is larger than 0.8. See class ClassifierOnlineTest in lib_classifier.py
 
+![alt text](https://github.com/chahatgoyal/Real-Time-Human-Activity-Recognition-Drones/blob/master/doc/joints_order.png)
+
 The algorithm has been considered from
 [report](https://github.com/felixchenfy/Data-Storage/blob/master/EECS-433-Pattern-Recognition/FeiyuChen_Report_EECS433.pdf)  
 
@@ -91,6 +93,8 @@ The script [src/s5_test.py](src/s5_test.py) is for doing real-time action recogn
 The classes are set in [config/config.yaml](config/config.yaml) by the key `classes`.
 
 The features obtained after running s3_preprocess_features.py for my dataset are provided below:
+[FeatureX.csv](https://drive.google.com/file/d/1iAieiINnOtFTwRmunfzxDzYPkD5U0VAH/view?usp=sharing)
+[FeatureY.csv:](https://drive.google.com/file/d/1RyKjH-rjpWdWUgqUjOBcpehowxZO27aL/view?usp=sharing)
 
 
 The supported input includes **video file**, **a folder of images**, and **web camera**, which is set by the command line arguments `--data_type` and `--data_path`.
@@ -142,7 +146,7 @@ Put your data inside the folder data with images of an activity inside the folde
 
 
 
-
+Further Extensions include exploring its perspective from lstm classifiers
 
 
 
