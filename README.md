@@ -3,7 +3,8 @@ This project can be implemented in real time in order to detect human activities
 
 # Introduction
 
-This Project is based upon recognizing human activities through drone survillence, it is a pert of my undergoing reserch on UAV survillance.This is based on Real-time and multi-frame based recognition algorithms. It uses different classifier on joint estimates obtained through openpose for obtaining segmented activity like Nearest Neighbors")
+This Project is based upon recognizing human activities through drone surveillance; it is a part of my undergoing research on UAV survillance.This is based on Real-time and multi-frame based recognition algorithms. It uses different classifier on joint estimates obtained through open pose for obtaining segmented activity like
++ Nearest Neighbors
 + Linear SVM
 + RBF SVM
 + Gaussian Process
@@ -14,6 +15,7 @@ This Project is based upon recognizing human activities through drone survillenc
 
 ![alt text](https://github.com/chahatgoyal/Real-Time-Human-Activity-Recognition-Drones/blob/master/results/Picture6.png)
 ![Output sample](https://github.com/chahatgoyal/Real-Time-Human-Activity-Recognition-Drones/blob/master/results/ezgif.com-video-to-gif.gif)
+![Output sample](https://github.com/chahatgoyal/Real-Time-Human-Activity-Recognition-Drones/blob/master/results/ezgif.com-video-to-gif%20(1).gif)
 
 # Algorithm
 + Get the joints' positions by OpenPose.
